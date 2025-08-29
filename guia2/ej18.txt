@@ -1,0 +1,11 @@
+una syscall es una instruccion en la que el usuario se comunica con el sort
+la escribio el desarrollador del so
+la implementacion se encuentra ubicada en el kernel
+
+mov eax, 3
+mov ebx, 1
+mov ecx, buffer ; buffer resb 32 por ejemplo
+mov edx, len ; espacio escrito del buffer
+int 80h
+
+el numero de id es el numero de un proceso
