@@ -59,5 +59,7 @@ continue:
 
 ret
 
+; no anda tengo que preguntarlo :c
+
 
     
